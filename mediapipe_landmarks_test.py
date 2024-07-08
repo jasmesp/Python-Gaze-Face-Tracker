@@ -4,7 +4,7 @@ import threading
 import queue
 
 # Parameters (easy to change)
-WEBCAM_NUMBER = 0  # Change this to use a different webcam
+WEBCAM_NUMBER = 1  # Change this to use a different webcam
 MIN_DETECTION_CONFIDENCE = 0.5
 MIN_TRACKING_CONFIDENCE = 0.5
 MAX_LANDMARKS = 467  # Max landmark number in MediaPipe (0-467)
